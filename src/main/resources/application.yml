@@ -1,0 +1,12 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      
+server:
+  port: 8080
+
+security:
+  app:
+    jwtSecret: SecretKeyForJWT
+    jwtExpirationMs: 28800000
